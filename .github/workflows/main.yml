@@ -1,14 +1,14 @@
 on: [push]
 
 jobs:
-  run_test_suite:
+  run-pace:
     runs-on: ubuntu-latest
     name: Run a test suite in Pace
     steps:
-      - name: Run a test suite
-        uses: qentinelqi/qentinel-pace-action@1.0.2
-        id: test_suite
+      - uses: qentinelqi/qentinel-pace-action@1.0.2
         with:
           access_token: ${{ secrets.MY_TOKEN }}
           suite_id: 9309
           project_id: 10326
+          api_url: https://api.qa.pace.qentinel.com/pace/v4/
+          
