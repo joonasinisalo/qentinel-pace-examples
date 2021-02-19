@@ -9,6 +9,7 @@ Search for a book
     AppState            Piki
     ClickText           Basic search
     VerifyText          Enter a search critera
+    # TIP: Define TITLE and AUTHOR variables as test suite variables
     TypeText            Title    ${TITLE}
     TypeText            Author    ${AUTHOR}
     ClickText           Search    Restrict your search with these filters
