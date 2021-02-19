@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: qentinelqi/qentinel-pace-action@1.0.2
         with:
-          access_token: ${{ secrets.MY_TOKEN }}
+          access_token: ${{ secrets.PACE_QA_ACCESS_KEY }}
           suite_id: 9309
           project_id: 10326
           api_url: https://api.qa.pace.qentinel.com/pace/v4/
