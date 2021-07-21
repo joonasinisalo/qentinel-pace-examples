@@ -1,0 +1,15 @@
+#
+# PaceEditor test suite configuration
+#
+name: Qentinel Pace configuration
+description: Configuration of Pace
+version: 0.0.1
+
+# Specify the default library for the test suite. Valid values are
+#  qweb     -- for web library
+#  qmobile  -- for mobile application library
+#  qvision  -- for computer vision library
+lib: qweb
+
+# Specify the URL to your test suite in Qentinel Pace
+url: https://pace.qentinel.com/robots/10603/r/13878/suite/11594/
